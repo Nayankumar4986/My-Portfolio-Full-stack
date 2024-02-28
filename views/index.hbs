@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nkwebsite</title>
+
+    <!-- box icon  -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- custom css  -->
+    {{!-- <link rel="stylesheet" href="style.css" /> --}}
+     <link rel="stylesheet" href="/static/css/style.css">
+  </head>
+
+  <body>
+    <!-- header design  -->
+    <header class="header">
+   <a href="#" class="logo">{{brandname.brandname}}</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Work Experience</a>
+        <a href="#portfolio">Latest Project</a>
+        <a href="#Contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- home section design  -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Nayan Kumar</h1>
+        <h3>
+          And I'm a Passionate <span id="element"></span></span>
+        </h3>
+        <p>
+          I am a student of Kalinga Institute of Industrial Technology University, currently pursuing B.Tech in Computer Science and Engineering (CSE) (2021-25) Batch. I have a keen interest in exploring various things and expanding my knowledge.
+        </p>
+
+
+        <div class="socialmedia">
+          <a href="https://github.com/Nayankumar4986"><i class='bx bxl-github' ></i></a>
+          <a href="https://instagram.com/nayan272n?igshid=NGExMmI2YTkyZg=="><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/nayan-kumar-34b8a2164/"><i class="bx bxl-linkedin-square"></i></a>
+        </div>
+         {{!-- <a href="{{this.link}}" download class="btn">{{this.linkText}}</a> --}}
+
+
+
+         <a href="https://drive.google.com/file/d/14RATVutCaXCg3q9gv5ZpAd6hEAysR-av/view?usp=drive_link " download class="btn">Download Resume</a>
+      </div>
+
+      
+
+      <div class="home-img">
+        <img src="/static/images/bg.png" alt="" />
+      </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-img" >
+
+        <img src="/static/images/bg.png" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">
+          About
+          <span>Me</span>
+        </h2>
+        <!-- <h3>Frontend Developer!</h3> -->
+        <p>
+            As a computer science student with a passion for technology and innovation, I believe that this opportunity would provide me with valuable experience and allow me to contribute to your team. And I am a undergraduate student of KIIT UNIVERSITY. Eager to secure an internship & Placement using my knowledge with natural language processing and building websites for non-technical users to further utilization of internet and social media.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- Services section  -->
+
+    <section class="services" id="services">
+      <h2 class="heading">Work <span>Experience</span></h2>
+
+      <div class="services-container">
+        <div class="serivices-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Android Developement</h3>
+          <br>
+          <p>
+            Project based internship offer Code Clause Android Developement
+            Program with Code clause internship is Schedule in the month of 01 Jul, 2023 to 30 jul 2023
+          </p>
+          <br>
+          <a href="https://www.linkedin.com/posts/nayan-kumar-34b8a2164_codeclause-intern-appdevelopment-activity-7081058990914232320-lqQ-?utm_source=share&utm_medium=member_desktop" class="btn">Read More</a>
+        </div>
+
+      
+        <div class="serivices-box">
+          <i class="bx bxl-android"></i>
+          <h3>Android App And Web Developement</h3>
+          <br>
+          <p>
+            Corizo Internship offer as a Android Development
+            I completed a remote based internship in the month of 05 May to 05 June, 2023
+          </p>
+          <br>
+          <a href="https://www.linkedin.com/posts/nayan-kumar-34b8a2164_course-completion-certificate-for-android-activity-7087761950117421056-MQXI?utm_source=share&utm_medium=member_desktop" class="btn">Read More</a>
+        </div>
+  
+
+      
+        <div class="serivices-box">
+          <i class="bx bxl-python"></i>
+          <h3>Artificial Intelligence</h3>
+          <br>
+          <p>
+            Project based internship offer for Artificial Intelligence with Python- Microsoft
+            program with Coincent in association with Languify. The internship is scheduled to commence in the month of 01 Aug, 2023 to 30 Sep, 2023.
+          </p>
+          <br>
+          <a href="https://www.linkedin.com/posts/nayan-kumar-34b8a2164_coincent-aritificialintelligence-microsoft-activity-7090705775467134976-FVge?utm_source=share&utm_medium=member_desktop" class="btn">Read More</a>
+        </div>
+  
+    </section>
+
+
+
+    <!-- portfolio section design   -->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+
+                <img src="/static/images/nayan1.jpg" alt="" >
+                <div class="portfolio-layer">
+                    <h4>Dyanamic Web Design</h4>
+                    <p>In the MongoDB database, all modifications are dynamically persisted and retrieved. This includes changes to titles, images, and sliders, allowing users to update data directly in the database.</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+
+            <div class="portfolio-box">
+
+                <img src="/static/images/nayan2.jpg" alt="" >
+                <div class="portfolio-layer">
+                    <h4>Online Voting App</h4>
+                    <p>using Android Studio and Java to develop the front-end of the
+application and implementing Google Firebase to manage user
+inputted data and Sql Lite Database</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+
+
+            <div class="portfolio-box">
+
+                <img src="/static/images/nayan3.jpg" alt="" >
+                <div class="portfolio-layer">
+                    <h4>Ecommerce website online Shopping</h4>
+                    <p>secure Ecommerce platforms and
+                           contributing to the success of innovative online shopping
+                          experiences</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+
+
+            <div class="portfolio-box">
+
+                <img src="/static/images/nayan4.jpg" alt="" >
+                <div class="portfolio-layer">
+                    <h4>ChatGPT Clone using OpenAI</h4>
+                    <p>Experienced and skilled professional with a passion for technology and AI. Developed a ChatGPT Clone using OpenAI, Flask, HTML, TailwindCSS, and MongoDB.
+</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+
+
+            <div class="portfolio-box">
+
+                <img src="/static/images/s2.jpg" alt="" >
+                <div class="portfolio-layer">
+                    <h4>QR Code Scanner App</h4>
+                    <p>Discover a world of possibilities with QR ScanGo. Download now and elevate your QR code scanning experience today! Available on Android.</p>
+                    <a href="https://www.linkedin.com/posts/nayan-kumar-34b8a2164_connections-codeclause-androiddeveloper-activity-7089679017657663493-wiRK?utm_source=share&utm_medium=member_desktop"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+
+            <div class="portfolio-box">
+
+                <img src="/static/images/nk1.jpg" alt="" >
+                <div class="portfolio-layer">
+                    <h4>Voice Based Notes App</h4>
+                    <p>Tired of typing out long notes? Say hello to VoiceNote, the innovative app that allows you to create notes using just your voice. Whether you're on the go or need a hands-free solution, VoiceNote</p>
+                    <a href="https://www.linkedin.com/posts/nayan-kumar-34b8a2164_connections-codeclause-androiddeveloper-activity-7087172304291426304-yIY1?utm_source=share&utm_medium=member_desktop"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+        </div>
+
+        
+    </section>
+
+
+
+    <!-- contact section design    -->
+    <section class="contact" id="Contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="/process-contact" method="post">
+            <div class="input-box">
+                <input name="fullname" type="text" placeholder="Full Name">
+                <input name="email" type="Email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input name="phone" type="Number" placeholder="Mobile No">
+                <input name="emailsubject" type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="query" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+            
+        </form>
+    </section>
+
+
+
+    <!-- footer designer  -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Nayan | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-icontop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+
+
+    <!-- scroll reveal  -->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js  -->
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> -->
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+
+     <!-- Setup and start animation! -->
+
+    <!-- custom script   -->
+    <script src="/static/js/script.js"></script>
+  </body>
+</html>
